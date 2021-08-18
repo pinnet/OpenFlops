@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\dev\OpenFlops\OpenFlopsXT_V0.1.kicad_sch</source>
+    <date>18/08/2021 09:18:35</date>
+    <tool>Eeschema (5.99.0-11626-g43523df843)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OpenFlops</title>
+        <company>SukkoPera</company>
+        <rev>1</rev>
+        <date>2020-01-01</date>
+        <source>OpenFlopsXT_V0.1.kicad_sch</source>
+        <comment number="1" value="Based on schematics by H.M"/>
+        <comment number="2" value="Licensed under CERN OHL v.1.2"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>layout_markers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee6c285</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1309af24-d236-4ce8-abb5-d79103e1bedd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CL21C220JBANNNC</field>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CL21C220JBANNNC"/>
+      <property name="MFG Name" value="SAMSUNG ELECTRO-MECHANICS"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d3a5e9d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d565e6d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CL21C220JBANNNC</field>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CL21C220JBANNNC"/>
+      <property name="MFG Name" value="SAMSUNG ELECTRO-MECHANICS"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d3a791f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d7d0a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d8b51</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d90dc</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d9a31</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d58f4bb</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa4b6018-31ac-4ae8-ab36-5e9f79e80702</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1d589d</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e01a581</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e1923c8</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ddd6ded</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">CC0805KRX7R9BB104</field>
+        <field name="MFG Name">YAGEO</field>
+        <field name="MFG Part Num">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB PN" value="CC0805KRX7R9BB104"/>
+      <property name="MFG Name" value="YAGEO"/>
+      <property name="MFG Part Num" value="MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dff67c6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">1N4148WS</field>
+        <field name="MFG Name">CHANGJIANG ELECTRONICS TECH (CJ)</field>
+        <field name="MFG Part Num">SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="JLCPCB PN" value="1N4148WS"/>
+      <property name="MFG Name" value="CHANGJIANG ELECTRONICS TECH (CJ)"/>
+      <property name="MFG Part Num" value="SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dd85482</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">1N4148WS</field>
+        <field name="MFG Name">CHANGJIANG ELECTRONICS TECH (CJ)</field>
+        <field name="MFG Part Num">SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="JLCPCB PN" value="1N4148WS"/>
+      <property name="MFG Name" value="CHANGJIANG ELECTRONICS TECH (CJ)"/>
+      <property name="MFG Part Num" value="SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2f4a52</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>UP</value>
+      <footprint>OpenFlops:PinHeader_1x02_P2.54mm_Mute</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006130ff16</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DN</value>
+      <footprint>OpenFlops:PinHeader_1x02_P2.54mm_Mute</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061312104</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>R</value>
+      <footprint>OpenFlops:PinHeader_1x02_P2.54mm_Mute</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061467817</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>G</value>
+      <footprint>OpenFlops:PinHeader_1x02_P2.54mm_Mute</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006146d222</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x22_Female</value>
+      <footprint>CM4IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x22_Female" description="Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ff73db-50b2-48c0-af52-fbc4d4f5067e</tstamps>
+    </comp>
+    <comp ref="JC1">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1f7be1-6a56-418d-bc2f-59aa7ba18a9a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SEL0</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622e4b11</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SEL1</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622e8f49</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SEL2</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622e9cfc</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>MO</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622e954b</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>568ee02c-cb4c-4be8-a7b3-b8b2ddb254ad</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a96ae5e0-0546-4318-bd25-19f17c299f0a</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00d6aaf6-8d5b-4502-8b1f-f4307f294b3f</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf4d421d-0435-4cc8-86d6-e8f0f9628b79</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>FLOPPY_CONN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x17_Odd_Even" description="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d3b452e</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>POWER_INPUT</value>
+      <footprint>OpenFlops:PinHeader_1x04_P2.54mm_Vertical_Power</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de866fd</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>POWER_PASSTHRU</value>
+      <footprint>OpenFlops:PinHeader_1x04_P2.54mm_Vertical_Power</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b9ca32-ed51-4d62-9aa8-177fb0615c81</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>PROG_PORT</value>
+      <footprint>OpenFlops:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4fbc5b</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>ENCODER_PORT</value>
+      <footprint>OpenFlops:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005daa60c4</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>DISPLAY_PORT</value>
+      <footprint>OpenFlops:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d67d719</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>USB_HEADER</value>
+      <footprint>OpenFlops:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d653966</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>SPK</value>
+      <footprint>OpenFlops:PinHeader_1x02_P2.54mm_Mute</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d86073a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed88da4</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed89df7</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8aa4f</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8ce05</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8c6ad</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="JLCPCB PN">BSS138</field>
+        <field name="MFG Name">ON SEMICON</field>
+        <field name="MFG Part Num">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part</field>
+      </fields>
+      <libsource lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor" description=""/>
+      <property name="JLCPCB PN" value="BSS138"/>
+      <property name="MFG Name" value="ON SEMICON"/>
+      <property name="MFG Part Num" value="MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8b5c1</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB PN">MMBT3904</field>
+        <field name="MFG Name">CHANGJIANG ELECTRONICS TECH (CJ)</field>
+        <field name="MFG Part Num">TRANSISTORS (NPN/PNP) NPN 200MA 40V SOT-23(SOT-23-3) ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="JLCPCB PN" value="MMBT3904"/>
+      <property name="MFG Name" value="CHANGJIANG ELECTRONICS TECH (CJ)"/>
+      <property name="MFG Part Num" value="TRANSISTORS (NPN/PNP) NPN 200MA 40V SOT-23(SOT-23-3) ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e577975</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d963352</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005daefaa1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005db06977</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dbb1a7c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dbb1aaa</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F1001T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="JLCPCB PN" value="0805W8F1001T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dbb1acd</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F4701T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB PN" value="0805W8F4701T5E"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005da17bdb</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F220JT5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="JLCPCB PN" value="0805W8F220JT5E"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d786893</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F220JT5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB PN" value="0805W8F220JT5E"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d7861b9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F4701T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB PN" value="0805W8F4701T5E"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d547a46</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d51c5e8</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F220JT5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB PN" value="0805W8F220JT5E"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2368c4</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB PN">0805W8F4701T5E</field>
+        <field name="MFG Name">UNIROYAL ELEC</field>
+        <field name="MFG Part Num">CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB PN" value="0805W8F4701T5E"/>
+      <property name="MFG Name" value="UNIROYAL ELEC"/>
+      <property name="MFG Part Num" value="CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005edf2bec</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9b2b0a</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de4b3c5</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>R_Network08</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network08" description="8 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062140960</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>R_Network08</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network08" description="8 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006213b8a2</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>BOOT1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dab2c99</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74HCT04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB PN">74HCT04D</field>
+        <field name="MFG Name">NEXPERIA</field>
+        <field name="MFG Part Num">GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part</field>
+      </fields>
+      <libsource lib="74xx" part="74HC04" description="Hex Inverter"/>
+      <property name="JLCPCB PN" value="74HCT04D"/>
+      <property name="MFG Name" value="NEXPERIA"/>
+      <property name="MFG Part Num" value="GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d95efcc 00000000-0000-0000-0000-00005d953f4c 00000000-0000-0000-0000-00005d951b3e 00000000-0000-0000-0000-00005d95513b 00000000-0000-0000-0000-00005d957328 00000000-0000-0000-0000-00005d95a888 00000000-0000-0000-0000-00005d94fa5f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F105RBT6</value>
+      <footprint>OpenFlops:LQFP-64_Handsoldering</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB PN">STM32F105RBT6</field>
+        <field name="MFG Name">STMICROELECTRONICS</field>
+        <field name="MFG Part Num">ST MICROELECTRONICS LQFP-64_10X10X05P ROHS Extended Part</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F1" part="STM32F105RBTx" description="ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64"/>
+      <property name="JLCPCB PN" value="STM32F105RBT6"/>
+      <property name="MFG Name" value="STMICROELECTRONICS"/>
+      <property name="MFG Part Num" value="ST MICROELECTRONICS LQFP-64_10X10X05P ROHS Extended Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d3a085c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LM1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB PN">AMS1117-3.3</field>
+        <field name="MFG Name">ADVANCED MONOLITHIC SYSTEMS</field>
+        <field name="MFG Part Num">LOW DROPOUT REGULATORS(LDO) POSITIVE FIXED 1.3V @ 800MA 15V 3.3V 1A SOT-223 ROHS Basic Part</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="JLCPCB PN" value="AMS1117-3.3"/>
+      <property name="MFG Name" value="ADVANCED MONOLITHIC SYSTEMS"/>
+      <property name="MFG Part Num" value="LOW DROPOUT REGULATORS(LDO) POSITIVE FIXED 1.3V @ 800MA 15V 3.3V 1A SOT-223 ROHS Basic Part"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005df78e0d</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8 MHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OpenFlopsXT_V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d3a386b</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.75mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>1a478ba4-39e0-47f6-ad20-3f6322aaeb65</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.75mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>f363ce89-bb7e-4234-8a03-a348903cd848</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.75mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>4383db1b-48af-4cb7-b447-e4721bed8834</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>OpenFlops:MountingHole_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>ca8ff5ae-1ff5-458d-8b93-972ad9b9ed0c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>OpenFlops:MountingHole_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>9ba85b17-36e5-44fa-b26b-e50b8c6f3e02</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>OpenFlops:MountingHole_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>d3666866-289d-4d8d-91ba-89e391000eca</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>OpenFlops:MountingHole_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>55aafc42-826e-43c3-aab6-1a4b7e5939ae</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>OSHW_LOGO</value>
+      <footprint>Symbol:OSHW-Logo2_9.8x8mm_Copper</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Layout"/>
+      <property name="Sheetfile" value="layout_markers.kicad_sch"/>
+      <sheetpath names="/Layout/" tstamps="/124f2b44-01a2-4b3b-ba62-8511b3dfb495/"/>
+      <tstamps>3cb3c575-08bf-4206-a933-d6ed23baaaf2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC04">
+      <description>Hex Inverter</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC04</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x22_Female">
+      <description>Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x22_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x17_Odd_Even">
+      <description>Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x17_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network08">
+      <description>8 resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network08</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F1" part="STM32F105RBTx">
+      <description>ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F105RBTx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="bidirectional"/>
+        <pin num="15" name="PA1" type="bidirectional"/>
+        <pin num="16" name="PA2" type="bidirectional"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="bidirectional"/>
+        <pin num="21" name="PA5" type="bidirectional"/>
+        <pin num="22" name="PA6" type="bidirectional"/>
+        <pin num="23" name="PA7" type="bidirectional"/>
+        <pin num="24" name="PC4" type="bidirectional"/>
+        <pin num="25" name="PC5" type="bidirectional"/>
+        <pin num="26" name="PB0" type="bidirectional"/>
+        <pin num="27" name="PB1" type="bidirectional"/>
+        <pin num="28" name="PB2" type="bidirectional"/>
+        <pin num="29" name="PB10" type="bidirectional"/>
+        <pin num="30" name="PB11" type="bidirectional"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14" type="bidirectional"/>
+        <pin num="36" name="PB15" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8" type="bidirectional"/>
+        <pin num="42" name="PA9" type="bidirectional"/>
+        <pin num="43" name="PA10" type="bidirectional"/>
+        <pin num="44" name="PA11" type="bidirectional"/>
+        <pin num="45" name="PA12" type="bidirectional"/>
+        <pin num="46" name="PA13" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="bidirectional"/>
+        <pin num="50" name="PA15" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11" type="bidirectional"/>
+        <pin num="53" name="PC12" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3" type="bidirectional"/>
+        <pin num="56" name="PB4" type="bidirectional"/>
+        <pin num="57" name="PB5" type="bidirectional"/>
+        <pin num="58" name="PB6" type="bidirectional"/>
+        <pin num="59" name="PB7" type="bidirectional"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenFlops-rescue" part="MOS_N_GSD-w_transistor">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N_GSD-w_transistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-3.3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F1">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F1.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="OpenFlops-rescue">
+      <uri>D:\dev\OpenFlops/OpenFlops-rescue.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="P4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="P6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U3" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="P8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/boot0">
+      <node ref="P4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="60" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="4" name="/boot1">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/dir">
+      <node ref="P1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="RN1" pin="9" pinfunction="R8" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/disp_clk">
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="P7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/disp_dio">
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="P7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/enc_clk">
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="P6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="52" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/enc_dt">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="P6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="51" pinfunction="PC10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/jc">
+      <node ref="JC1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/nrst">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="12" name="/rx">
+      <node ref="P4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="43" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/sd_dtd">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/spi_clk">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/spi_cs">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/spi_di">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/spi_do">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/spk+">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="P9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/spk-">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="P9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="20" name="/spk_out">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/swclk">
+      <node ref="U3" pin="49" pinfunction="PA14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="/tx">
+      <node ref="P4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="42" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/usb+">
+      <node ref="J5" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="45" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/usb+r">
+      <node ref="P8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/usb-">
+      <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="44" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/usb-r">
+      <node ref="P8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/~{dskchg_3v3}">
+      <node ref="U1" pin="13" pintype="input"/>
+      <node ref="U3" pin="59" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/~{dskchg}">
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="29" name="/~{enc_sel}">
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="P6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/~{index_3v3}">
+      <node ref="U1" pin="1" pintype="input"/>
+      <node ref="U3" pin="61" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/~{index}">
+      <node ref="P1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="32" name="/~{inuse}">
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="33" name="/~{key_dn}">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U3" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/~{key_up}">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U3" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/~{mtron}">
+      <node ref="JP4" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="R7" pintype="passive"/>
+      <node ref="U3" pin="50" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/~{rdata_3v3}">
+      <node ref="U1" pin="11" pintype="input"/>
+      <node ref="U3" pin="23" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/~{rdata}">
+      <node ref="P1" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN2" pin="7" pinfunction="R6" pintype="passive"/>
+    </net>
+    <net code="38" name="/~{rdy_3v3}">
+      <node ref="U1" pin="9" pintype="input"/>
+      <node ref="U3" pin="55" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/~{rdy}">
+      <node ref="P1" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN2" pin="9" pinfunction="R8" pintype="passive"/>
+    </net>
+    <net code="40" name="/~{sel0}">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="41" name="/~{sel1}">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="R5" pintype="passive"/>
+    </net>
+    <net code="42" name="/~{sel2}">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="R6" pintype="passive"/>
+    </net>
+    <net code="43" name="/~{sel3}">
+      <node ref="P1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="/~{selx}">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/~{sely}">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/~{side}">
+      <node ref="P1" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="RN2" pin="8" pinfunction="R7" pintype="passive"/>
+      <node ref="U3" pin="56" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/~{step}">
+      <node ref="P1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="RN2" pin="2" pinfunction="R1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/~{trk0_3v3}">
+      <node ref="U1" pin="3" pintype="input"/>
+      <node ref="U3" pin="58" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/~{trk0}">
+      <node ref="P1" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN2" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="50" name="/~{wdata}">
+      <node ref="P1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="U3" pin="41" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/~{wgate}">
+      <node ref="P1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="U3" pin="62" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/~{wprot_3v3}">
+      <node ref="U1" pin="5" pintype="input"/>
+      <node ref="U3" pin="57" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/~{wprot}">
+      <node ref="P1" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="RN2" pin="6" pinfunction="R5" pintype="passive"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J5" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="JC1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="P1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="P1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="P1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="P1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="P1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="P1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="P1" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="P1" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="P1" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P1" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="P1" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="P1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="P1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="P4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="55" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PD0" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PD1" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="53" pinfunction="PC12" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="Net-(JP7-Pad2)">
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="75" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pintype="output"/>
+    </net>
+    <net code="76" name="unconnected-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(P2-Pad4)">
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+      <node ref="P3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3-Pad20)">
+      <node ref="U3" pin="20" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-Pad21)">
+      <node ref="U3" pin="21" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad46)">
+      <node ref="U3" pin="46" pinfunction="PA13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad54)">
+      <node ref="U3" pin="54" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
