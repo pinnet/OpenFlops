@@ -5743,7 +5743,7 @@
   (gr_text "© dannyarnold.com 2021" (at 124.714 129.405) (layer "F.SilkS") (tstamp 0af94b9f-fd46-4833-901f-c1e466b59b63)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (gr_text "https://github.com/pinnet/openflops" (at 124.95 128.005) (layer "F.SilkS") (tstamp 14047837-3d8d-42c9-b759-cf549239a2cc)
+  (gr_text "https://github.com/pinnet/OpenFlops" (at 124.95 128.005) (layer "F.SilkS") (tstamp 14047837-3d8d-42c9-b759-cf549239a2cc)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text "Option" (at 125.603 123.8758) (layer "F.SilkS") (tstamp 44ef8013-e7bb-4893-a5ac-36f28e855998)
