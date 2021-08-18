@@ -95,4 +95,4 @@ If you need help or have questions, you can join [the official Telegram group](h
 
 # OpenFlopsXT
 A remix smaller pcb with support of flashfloppy extensions and a 24pin flat flex connector for a breakout display board that supports SD cards and should fit an Amiga A500 in a mezzanine configuration. This is a work in progress and has not been proven
-[PCB Front](img/OpenFlopsXT_V0.1.png)
+![PCB Front](img/OpenFlopsXT_V0.1.png)
