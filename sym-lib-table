@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name OpenFlops-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenFlops-rescue.lib)(options "")(descr ""))
+  (lib (name "OpenFlops-cache")(type "Legacy")(uri "${KIPRJMOD}/OpenFlops-cache.lib")(options "")(descr ""))
+  (lib (name "OpenFlops")(type "KiCad")(uri "${KIPRJMOD}/OpenFlops.kicad_sym")(options "")(descr ""))
 )

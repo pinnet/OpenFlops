@@ -1,4 +1,4 @@
-19464127017215189
+19467385644086901
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59584,6 +59584,13 @@ CONN DEV
 4
 2
 OpenFlops
+HRS_FH12-24S-0.5SH(55)
+
+
+0
+26
+26
+OpenFlops
 LQFP-64_Handsoldering
 LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
@@ -59627,6 +59634,13 @@ Through hole pin header THT 1x03 2.54mm single row
 3
 OpenFlops
 PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+OpenFlops
+PinHeader_1x04_P2.54mm_Vertical_Power
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
